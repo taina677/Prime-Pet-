@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
 
 <body>
 
@@ -13,14 +14,14 @@
     <p>
     <label for="nome">Digite seu nome:</label>
     <br>
-    <input type="text" id="nome" name="nome"
+    <input type="text" class="nome" name="nome"
     placeholder="Digite seu nome!">
     </p>
 
     <p>
       <label for="nome">Digite o nome do seu pet:</label>
       <br>
-      <input type="text" id="nome" name="nome"
+      <input type="text" class="nome" name="nome"
       placeholder="Digite o nome do seu pet!">
     </p>
 
@@ -28,9 +29,12 @@
     <p>
         <label for="number">Digite seu telefone:</label>
         <br>
-        <input type="number" id="number" name="telefone"
+        <input type="number" class="number" name="telefone"
     placeholder="Digite seu telefone">
     </p>
+
+    <form action="/enviar" method="post">
+      <button type="submit">Enviar</button>
     
       </form>
     <img src="images.jpg">

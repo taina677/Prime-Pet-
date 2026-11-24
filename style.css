@@ -1,0 +1,44 @@
+h1 {
+    color:rgba(252, 193, 31, 0.966);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input {
+  background-color: #f0f4f8;
+  color: #111827;}
+.nome {
+    background-color: antiquewhite;
+    border: 2px;
+    
+}
+
+input {
+    background-color: #f0f4f8;
+    color:#111827;}
+    .nome {
+        background-color: antiquewhite;
+        border:2px;
+    }
+
+    input {
+    background-color: #f0f4f8;
+    color:#111827;}
+    .number {
+        background-color: antiquewhite;
+        border:2px;
+    }
+
+    input[type="submit"],
+button[type="submit"] {
+  background-color:antiquewhite;          
+  border: 20px;
+  color: #0a0a0a;            
+  border: none;              
+  padding: 10px 20px;        
+  border-radius: 5px;       
+  cursor: pointer;   
+}             
+      
+ 
+
+
